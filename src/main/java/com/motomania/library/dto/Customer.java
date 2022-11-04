@@ -20,7 +20,7 @@ public class Customer {
     private String address;
     private String email;
     private String phone;
-    private LibraryEntity libraryEntity;
+    private LibraryEntity library;
 
     @JsonIgnore
     private List<BookEntity> books;
